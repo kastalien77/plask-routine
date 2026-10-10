@@ -2,9 +2,9 @@
   "mcpServers": {
     "plask": {
       "type": "http",
-      "url": "https://kastalien.turink.com/mcp",
+      "url": "https://kastalien.turink.com/mcp/k",
       "headers": {
-        "Authorization": "Bearer ${PLASK_ROUTINE_KEY}"
+        "Authorization": "Bearer ${PLASK_ROUTINE_KEY:-none}"
       }
     }
   }
