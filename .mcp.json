@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "plask": {
+      "type": "http",
+      "url": "https://kastalien.turink.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${PLASK_ROUTINE_KEY}"
+      }
+    }
+  }
+}
